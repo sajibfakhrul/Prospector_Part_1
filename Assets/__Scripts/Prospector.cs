@@ -61,7 +61,7 @@ public class Prospector : MonoBehaviour
         CardProspector cp;
         foreach (Card card in listCard) {
             cp = card as CardProspector;
-            listCard.Add(cp);
+            listCP.Add(cp);
         
         }
         return (listCP);
